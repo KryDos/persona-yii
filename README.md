@@ -40,7 +40,7 @@ For adding Persona Login button into your view you can invoke the widget like th
      'button_text' => 'Login button text',
      'button_style' => 'dark',
      'login_url' => $this->createUrl('site/login'),
-         'logout_url' => $this->createUrl('site/logout'),
+     'logout_url' => $this->createUrl('site/logout'),
     ));
     
 
@@ -48,7 +48,7 @@ Into your **login action** you should add next lines:
 
 
     $identity = new PersonaUserIdentity('User'); 
-if($identity->authenticate()) {
+    if($identity->authenticate()) {
         Yii::app()->user->login($identity);
         echo json_encode(array('url'=>Yii::app()->user->returnUrl));
         Yii::app()->end();
