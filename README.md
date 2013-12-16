@@ -1,4 +1,4 @@
-Persona (BrowserID) Extension for Yii Framework
+Mozilla Persona (BrowserID) Extension for Yii Framework
 ===============================================
 
 Installation:
