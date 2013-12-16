@@ -3,6 +3,7 @@
  * Persona Component. Contain helpers
  *
  * @author Ruslan (KryDos) Bekenev <furyinbox@gmail.com>
+ * @license MPL 1.1 http://www.mozilla.org/MPL/1.1/index.txt
  */
 class Persona extends CComponent
 {

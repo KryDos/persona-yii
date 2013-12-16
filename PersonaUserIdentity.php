@@ -3,6 +3,7 @@
  * PersonaUserIdentity class implements from IUserIdentity
  *
  * @author Ruslan <KryDos> Bekenev <furyinbox@gmail.com>
+ * @license MPL 1.1 http://www.mozilla.org/MPL/1.1/index.txt
  */
 
 class PersonaUserIdentity implements IUserIdentity
