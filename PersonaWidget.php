@@ -3,7 +3,7 @@
  * This file contain only Persona class
  *
  * @author Ruslan (KryDos) Bekenev <furyinbox@gmail.com>
- * @license MPL 1.1 http://www.mozilla.org/MPL/1.1/index.txt
+ * @license MIT https://raw.github.com/KryDos/persona-yii/master/LICENSE.txt
  */
 
 /**
