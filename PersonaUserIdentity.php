@@ -8,11 +8,26 @@
 
 class PersonaUserIdentity implements IUserIdentity
 {
+    /**
+     * @var int $id current user id
+     */
     public  $id;
+    /**
+     * @var string $_model_name model name where we will be do user search
+     */
     private $_model_name;
+    /**
+     * @var string $_email_field name of the email column in the table
+     */
     private $_email_field;
 
+    /**
+     * @var bool $_isAuthenticated
+     */
     private $_isAuthenticated = false;
+    /**
+     * @var string $_name name of the user.
+     */
     private $_name;
     private $_states = array();
 
@@ -48,6 +63,8 @@ class PersonaUserIdentity implements IUserIdentity
 
             $this->id = $user_model->id;
             $this->_isAuthenticated = true;
+
+            //TODO name should me a real name or login or some readable user identifier
             $this->_name = $user_model->$email_field;
             return true;
         }
