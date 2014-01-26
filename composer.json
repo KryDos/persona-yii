@@ -1,0 +1,17 @@
+{
+    "name": "KryDos/persona-yii",
+    "description": "Mozilla Persona (BrowserID) Extension for Yii Framework",
+    "version": "0.9",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ruslan Bekenev",
+            "email": "furyinbox@gmail.com",
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+
+}
+
