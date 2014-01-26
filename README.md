@@ -1,8 +1,17 @@
 Mozilla Persona (BrowserID) Extension for Yii Framework
 ===============================================
 
-Installation:
--------------
+Installation
+============
+
+Composer
+--------
+Add to your require section into your composer file:
+
+    krydos/persona-yii
+
+Manually installation
+---------------------
 
  - go into your extensions folder
  - clone this repo in your extensions folder
@@ -22,7 +31,8 @@ your import section should look like this:
 Installation complete. Hooray! :)
 
 Usage:
-------
+======
+
 For adding Persona Login button into your view you can invoke the widget like that: 
 
 ```php
